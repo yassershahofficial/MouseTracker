@@ -1,0 +1,30 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 100px;
+    background-color: yellow;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.character{
+    width: 36rem;
+    z-index: 2;
+}
+.eyeR{
+    position: absolute;
+    width: 50px;
+    top: 192px;
+    /* right: 558px; */
+    right: 731px;
+    z-index: 1;
+}
+.eyeL{
+    position: absolute;
+    width: 50px;
+    top: 195px;
+    /* right: 629px; */
+    right: 802px;
+    z-index: 1;
+}
